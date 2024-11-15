@@ -1,0 +1,66 @@
+.subscribe{
+    margin: 100px 0;
+    
+}
+
+.subscribe h1{
+    text-align: center;
+}
+
+.subscribe p{
+    color: gray;
+    text-align: center;
+    margin: 10px;
+}
+
+.subscribe form{
+
+    width: 600px;
+    height: 70px;
+    /* background: red; */
+    position: relative;
+    margin: 40px auto auto auto;
+    border: 2px solid var(--theme-bg-secondry);
+    border-radius: 0px 17px 14px 0px;
+
+}
+
+.subscribe form input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: transparent;
+    padding-left: 25px;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.subscribe form input::placeholder{
+    color: var(--theme-bg-secondry);
+}
+
+
+.subscribe form button{
+
+    background: var(--theme-bg-secondry);
+    border-radius: 0px 14px 12px 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border: transparent;
+    padding: 15px 40px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+
+

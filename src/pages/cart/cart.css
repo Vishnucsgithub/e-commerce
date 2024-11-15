@@ -54,6 +54,11 @@
     gap: 5px;
 }
 
+.cart-page{
+    margin-bottom: 78px;
+
+}
+
 .cart-items .image-cart {
     width: 80px;
     height: 80px;
